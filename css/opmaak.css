@@ -1,0 +1,127 @@
+
+
+* { box-sizing: border-box; }
+
+body{
+    font: normal 100%/1.4 Tahoma, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #669999;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+}
+
+header {
+    height: 150px;
+    background: #003333;
+    border-bottom: 2px solid  #003333;
+}
+
+nav {
+    background: #699;
+    height: 50px;
+
+}
+
+main {
+    background: white;
+    min-height: 600px;
+}
+
+footer {
+    background: #033;
+    height: 150px;
+    clear: both;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  color: white;
+  font-size: 3.5rem;
+}
+
+/*navigatie----------------------------------------------------------------------------------------------------------------------------------*/
+
+a {
+   text-decoration: none;
+    color: #F33;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+a:hover { text-decoration: underline;}
+
+
+nav ul {
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: -5px;
+
+}
+
+nav ul li:first-child { margin: 0; }
+
+nav ul a {
+    display: inline-block;
+    background: #699;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 4em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 500ms;
+    border: none;
+}
+
+nav ul a:hover {
+    background: white;
+    color: #699;
+    text-decoration: none;
+}
+
+nav ul a.active-item {
+    background: white;
+    color: #699;
+    cursor: default;
+}
+
+
+
+/*content-------------------------------------------------------------------------------------------------------------------------------------*/
+
+section {
+    text-align: center;
+    min-height: 660px;
+    background: white;
+    padding: 20px 50px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.inleiding {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+img {
+  height: 250px;
+}
